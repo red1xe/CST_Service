@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed on your system:
 
 3. Give acces to open batch file via windows services.
 
-- `Win + R` > `control admintools` > `Local Security Policy` > `Local Policies` > `User Rights Assignment` > `Deny log on as a service` > `Add User or Group` > Enter the name of the user that you want to grant the right to log on as a service > `Check Names` > `OK` > `Apply` > `OK`
+   - `Win + R` > `control admintools` > `Local Security Policy` > `Local Policies` > `User Rights Assignment` > `Deny log on as a service` > `Add User or Group` > Enter the name of the user that you want to grant the right to log on as a service > `Check Names` > `OK` > `Apply` > `OK`
 
 3. Create a service on your local machine with `InstallUtil.exe`:
 
